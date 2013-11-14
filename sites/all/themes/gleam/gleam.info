@@ -80,6 +80,7 @@ stylesheets[all][] = css/print.css
 scripts[]=js/jquery.scrollTo.js
 
 scripts[]=js/jquery.nav.js
+scripts[]=js/cssrefreshss.js
 scripts[] = js/script.js
 
 

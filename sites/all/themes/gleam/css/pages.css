@@ -17,10 +17,9 @@
   padding: 0;
 }
 body {
-  background: #4BAFF4;
-  
   font-family: "Ubuntu", Arial, Helvetica, sans-serif;
   font-size: 14px;
+  background: #39A6E8;
 }
 h1, h2, h3, h4, h5, h6{
   font-weight: normal;
@@ -49,8 +48,9 @@ a{
 }
 
 #page {
-width: 960px;
+width: 100%;
 margin: 0 auto;
+max-width: none;
    
 }
 
@@ -88,6 +88,7 @@ margin: 0 auto;
 #logo img {
  
   vertical-align: bottom;
+  margin-left: 179px;
 }
 
 #name-and-slogan { /* Wrapper for website name and slogan */
@@ -123,21 +124,12 @@ margin: 0 auto;
  * Main (container for everything else)
  */
 
-#main {
- 
-background: #4BAFF4;
-
 /*
  * Content
  */
-}
 
 #content {
- /*background: #4BAFF4;
-  
-}
-*/
-.region-highlighted {
+
 }
 
 .breadcrumb { /* The path to the current page in the form of a list of links */
@@ -271,141 +263,40 @@ span.field-label { /* The inline field label used by the Fences module */
 .region-bottom { /* Wrapper for any blocks placed in the page bottom region */
 }
 
-/*************************** HOME PAGE ***************************/
+/**************************HOME PAGE*****************************************************************/
 
-/*#block-block-9 {
-  background: #DFF2F2;
-  left: 0;
-  top: 0;
-  padding: 0;
-  position: fixed;
-  width: 100%;
-  z-index: 4;
-}
-
-#gleam {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0;
-}
-
-#gleam li{
-  display: inline-block;
-}
-#gleam a{
-  color: #000;
-  display: block;
-  padding: 15px 30px;
-}
-#gleam a:hover,
-#gleam .current a{
-  background: #D6E3F2;
-  border-top: 2px solid #EB7F00;
-  color: #EB7F00;
-}
-#webform-client-form-10 #edit-submit{
-  
-  background: #ddd;
-  color: #1695A3;
-  height: 33px;
-  width: 95px;
-}
- 
-#webform-client-form-10 input,
-#webform-client-form-10 textarea{
-  width: 515px;
-  padding: 4px;
-}
-.grippie {
-  width: 515px;
-  }*/
-  
-/*
- .panel-pane pane-views pane-tagline tagline pane-title h2{
-  color: #2793F2;
-}
-
-
-}
-.view view-client view-id-client view-display-id-page view-dom-id-359d168d3d0467fda5a9cb19ae5a7c2b{
-  background: DFFFF8;
-}
-#views_slideshow_cycle_teaser_section_testimonials-page{
-background: #dddddd;
-}
-#webform-client-form-10 input,
-#webform-client-form-10 textarea{
-  width: 515px;
-}
-.grippie {
-  width: 515px;
-}
-#webform-client-form-10 #edit-submit{
-  width: 95px;
-  background: #1D79F2;
-  color: #B3031B;
-
-}
-.field-content a{
-  color: #915B00;
-}
-.pane-content{
-  color: #000;
-}
-.pane-content p{
-  
-  color:#000;
-}
-#header {
-  display: none;
-}
- .views-view-grid cols-4{
-  background: #fff;
- }
- #navigation li a{
-  background: #03658C!important;
-  border-radius: 4px;
-  -moz-border-radius: 4px;
-  -web-kit-border-radius: 4px;
-  color: #fff;
-  text-decoration: none;
-  padding: 6px 30px!important;
- }
- #navigation li a:hover{
-  background: #04ADBF!important;
- }*/
-/*
-#views_slideshow_cycle_teaser_section_testimonials-default {
-  background: #fff;
-}*/
 #field-content {
   font-size: 25px;
   color: #fff;
 }
 
-/*#gleam {
-*/
-/*position: fixed;
-right: 20px;
-top: 50px;
-z-index: 100;*/
-/*}*/
-
-/*#block block-block contextual-links-region first last odd .nav ul{
-  position: fixed;
-  right: 20px;
-  top: 50px;
-  z-index: 100;
-}*/
-/*.contextual-links-regionpanel-pane pane-block pane-block-11 .pane-content p{
-  color: #fff;*/
-}
  #nav {
   position: fixed;
   right: 20px;
   top: 50px;
   z-index: 100;
 }
+
+.panels-flexible-row-1-1 {
+  background: #39A6E8;
+}
+
+.panels-flexible-row-1-2 {
+  background: #00517A;
+}
+
+.panels-flexible-row-1-4 {
+  background: #2C89D6;
+}
+.panels-flexible-row-1-5 {
+  background: #F1F4F9;
+}
+
+.panels-flexible-row-inside {
+  margin: 0 auto;
+  width: 960px;
+}
+
 .views-field-field-slogan{
   color: #fff;
   font-size: 38px;
@@ -425,50 +316,36 @@ z-index: 100;*/
 }
 
 #views_slideshow_cycle_teaser_section_testimonials-default p{
- /*background: url("../images/quote-1.png") no-repeat scroll 2px 0px transparent;*/
- 
-
   padding: 30px;
-  
   margin-left: 124px;
   margin-top: -150px;
 }
-/*#views_slideshow_cycle_teaser_section_testimonials-default p{
-  background: url("../images/quote-2.png") no-repeat scroll 236px 482px transparent;
-}*/
-/*#views_slideshow_cycle_main_testimonials-default{
- 
-  background: url("../images/quote-2.png") no-repeat scroll 236px 482px transparent;
-}*/
 
 #views_slideshow_cycle_main_testimonials-default p{
-
-  background: url("../images/quote-1.png") no-repeat scroll 2px 10px transparent!important;
- 
+  background: url("../images/quote-1.png") no-repeat scroll 2px 10px transparent!important; 
 }
-#views_slideshow_cycle_main_testimonials-default {
- background: url("../images/quote-2.png") no-repeat scroll 256px 255px transparent;
-}
-#views_slideshow_cycle_main_testimonials-default {
 
+#views_slideshow_cycle_main_testimonials-default {
+  background: url("../images/quote-2.png") no-repeat scroll 256px 255px transparent;
+}
+
+#views_slideshow_cycle_main_testimonials-default {
   background-color: #fff;
   border-radius: 40px;
   float: right;
   height: 291px;
   line-height: 29px;
   margin: -15px;
+  margin-bottom: 30px;
   margin-top: 28px;
   width: 445px;
-
 }
+
 #views_slideshow_cycle_main_testimonials-default p{
   color: #000;
   margin-top: -87px;
 }
 
-/*#views_slideshow_cycle_teaser_section_testimonials-default{
-  background: #fff;
-}*/
 #block-block-11 p{
   font-size: 25px;
   color: #fff;
@@ -476,56 +353,54 @@ z-index: 100;*/
 .field-content{
   margin-top: 32px;
 }
-/*.view-content h1{
-  margin-top: -81px;
-}*/
-/*#webform-client-form-10 #edit-submit{
-  width: 95px;
-  background: #1D79F2;
-  color: #B3031B;*/
+
 #edit-submitted-name{
   padding: 4px;
   width: 350px;
   
 }
+
 #edit-submitted-email{
   padding: 4px;
   width: 350px;
 }
+
 #edit-submitted-subject{
   padding: 4px;
   width: 350px;
 }
+
 #edit-submitted-message{
   padding: 4px;
   width: 360px;
 }
+
 .grippie{
-  
   width: 360px;
-  
 }
+
 #edit-submit{
-background: #ddd;
- color: #1695A3;
- padding: 6px;
- width: 75px;
+  background: #002757;
+  color: #30AB05;
+  padding: 6px;
+  width: 364px;
 }
+
 #edit-name{
-  
   height: 30px;
   width: 30%
 }
+
 #edit-pass{
-  
   height: 30px;
   width: 30%
 }
+
 #block-block-14 p img {
-   /*background: url("../images/quote-2.png") no-repeat scroll 236px 482px transparent;*/
 width: 140px;
 margin-top:-111px
 }
+
 .views-row{
   margin-top: 49px;
 }
@@ -585,9 +460,6 @@ margin-top:-111px
   background: url("../images/sprite-nav.png") no-repeat scroll right -117px transparent;
 }
 
-/*.Map{
-  display: none;
-}*/
 .testimonial-pic  a img {
   border-radius: 150px;
   margin-left:-46px;
@@ -596,35 +468,13 @@ margin-top:-111px
   margin: -44px;
 
 }
-/*.region.region-page-top{
-  border: 4px solid;
+.section-class img {
+  border: 2px solid #000;
+
 }
- .test-body {
-  margin-top:-247px;
-  */
 
- 
-  /*background: url("../images/quote-2.png") no-repeat scroll 236px 482px transparent;*/
-
- .field-contenttest-body {
- background: url("../images/quote-2.png") no-repeat scroll 0px 0px transparent;
- }
- /*h2.pane-title{
-  font-weight: normal;
-  line-height: 40px;
-  margin-bottom: 50px;
-
- }*/
- /*.panels-flexible-row-1-2-inside .clearfix{*/
-  /*h2.pane-title{
-  line-height: 229px;
-
- }*/
- ./*panels-flexible-row-1-4-inside .clearfix{
-  line-height: 40px;
- }*/
-.warning{
-  display: none;
+.field-contenttest-body {
+  background: url("../images/quote-2.png") no-repeat scroll 0px 0px transparent;
 }
 
 .views-field-body{
@@ -634,3 +484,48 @@ margin-top:-111px
 
 .views-field-body p{
   color: #fff;
+}
+
+/********** MAP **********/
+
+.panels-flexible-row-1-5 .panels-flexible-row-inside {
+  position: relative;
+  width: auto;
+  margin: 0;
+}
+
+#header, #content, #navigation, .region-sidebar-first, .region-sidebar-second, #footer {
+  padding: 0;
+}
+
+.panels-flexible-region-1-map {
+  float: none;
+  width: auto;
+}
+
+.panels-flexible-region-inside {
+  padding: 0;
+}
+
+.panels-flexible-region-1-contact_us {
+  background: none repeat scroll 0 0 #C7D2D9;
+  position: absolute;
+  right: 170px;
+  top: 0;
+  float: none;
+  width: auto;
+}
+
+.webform-component-textfield label{
+  position: absolute;
+  margin: 6px;
+}
+
+.webform-component-email label{
+  position: absolute;
+  margin: 6px;
+}
+.webform-component-textarea label{
+  position: absolute;
+  margin: 6px;
+}
